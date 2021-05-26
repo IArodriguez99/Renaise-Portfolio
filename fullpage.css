@@ -129,15 +129,15 @@ html.fp-enabled,
 }
 #fp-nav ul,
 .fp-slidesNav ul {
-  margin-left: 9rem;
-  padding-bottom: 11.5rem;
+  margin-left: 3.9rem;
+  padding-bottom: 14.4rem;
 }
 
 #fp-nav ul li,
 .fp-slidesNav ul li {
     display: block;
     width: 14px;
-    height: 3.6rem;
+    height: 2.5rem;
     margin: 7px;
     position:relative;
 }
@@ -166,8 +166,8 @@ html.fp-enabled,
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 0.8rem;
+    width: 0.8rem;
     border: 0;
     background: #8b8b8b;
     left: 50%;

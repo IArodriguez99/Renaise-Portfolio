@@ -110,16 +110,20 @@ input:checked + .slider:before {
     padding-right: 1rem;
 }
 
-.section{
+.holder{
     display: flex;
     flex-direction: row;
     padding-top: 12rem;
     padding-left: 15rem;
-    padding-bottom: 12rem;
 }
 
 .intro{
-    width: 35%;
+    width: 38%;
     align-self: flex-end;
     padding-right: 15rem;
+}
+
+.work-img{
+    padding-left: 5rem;
+    padding-bottom: 5rem;
 }

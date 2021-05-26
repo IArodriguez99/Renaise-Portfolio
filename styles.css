@@ -30,12 +30,12 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .logo{
-    padding-left: 10rem;
-    padding-right: 4rem;
+    padding-left: 13.5rem;
+    padding-right: 8rem;
 }
 
 .switch {
@@ -97,7 +97,7 @@ input:checked + .slider:before {
 }
 .nav-right{
     margin-left: auto;
-    padding-right: 6rem;
+    padding-right: 12.5rem;
 }
 
 .nav-right li{
@@ -110,23 +110,16 @@ input:checked + .slider:before {
     padding-right: 1rem;
 }
 
-.landing{
+.section{
     display: flex;
     flex-direction: row;
     padding-top: 12rem;
     padding-left: 15rem;
+    padding-bottom: 12rem;
 }
 
-.content{
+.intro{
     width: 35%;
     align-self: flex-end;
-    padding-right: 6rem;
-}
-
-.ellipse{
-    position: fixed;
-    z-index: -1;
-    bottom: 5rem;
-    right: 14rem;
-    overflow-y: hidden;
+    padding-right: 15rem;
 }

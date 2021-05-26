@@ -7,11 +7,9 @@
 body{
     background-color: #181818;
     background-image: url(./assets/Vector.svg);
-    background-size: 95%;
+    background-size: 97%;
     background-position: center;
     background-repeat:repeat-y;
-    width: 90%;
-    margin: auto;
 }
 
 h3{
@@ -44,13 +42,13 @@ p{
     position: relative;
     width: 60px;
     height: 34px;
-  }
+}
 
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
 
   .slider {
     position: absolute;
@@ -62,7 +60,7 @@ p{
     background-color: #696565;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
 
 .slider:before {
     position: absolute;
@@ -120,7 +118,7 @@ input:checked + .slider:before {
 }
 
 .content{
-    width: 42%;
+    width: 35%;
     align-self: flex-end;
     padding-right: 6rem;
 }

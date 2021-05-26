@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #181818;
+    background-color: #161718;
     background-image: url(./assets/Vector.svg);
     background-size: 97%;
     background-position: center;
@@ -26,20 +26,29 @@ p{
     font-weight: ;
     line-height: 2.2rem;
 }
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .nav{
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
+    z-index: 2;
 }
 
 .logo{
-    padding-left: 13.5rem;
+    padding-left: 14rem;
     padding-right: 8rem;
 }
 
 .switch {
     position: relative;
+    z-index: 2;
     width: 60px;
     height: 34px;
 }
@@ -50,7 +59,7 @@ p{
     height: 0;
 }
 
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -95,26 +104,24 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+
 .nav-right{
-    margin-left: auto;
-    padding-right: 12.5rem;
+   position: fixed;
+   right: 12rem
+}
+
+.nav-right ul{
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .nav-right li{
     font-family: Decimal;
-    color: #ffffff;
     font-size: 1.1rem;
-    list-style: none;
-    display: inline-flex;
     padding-left: 1rem;
     padding-right: 1rem;
-}
-
-.holder{
-    display: flex;
-    flex-direction: row;
-    padding-top: 12rem;
-    padding-left: 15rem;
 }
 
 .intro{
@@ -123,7 +130,82 @@ input:checked + .slider:before {
     padding-right: 15rem;
 }
 
+.holder{
+    display: flex;
+    flex-direction: row;
+    padding-top: 11rem;
+    padding-left: 15rem;
+}
+
+.holder-a{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7rem;
+    padding-left: 13.4rem;
+}
+
+.work1{
+    width: 35%;
+    align-self: flex-end;
+    padding-right: 15rem;
+}
+
+.holder-b{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5.3rem;
+    padding-left: 13.4rem;
+}
+
+.work2{
+    width: 35%;
+    align-self: flex-end;
+    padding-right: 15rem;
+}
+
+.holder-c{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+    padding-left: 13.4rem;
+}
+
+.work3{
+    width: 35%;
+    align-self: flex-end;
+    padding-right: 15rem;
+}
+
+.holder-d{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-left: 13.3rem;
+}
+
+.work4{
+    width: 37%;
+    align-self: flex-end;
+    padding-right: 15rem;
+}
+
+.holder-e{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8.8rem;
+    padding-left: 13.3rem;
+}
+
+.work5{
+    width: 35%;
+    align-self: flex-end;
+    padding-right: 15rem;
+}
+
 .work-img{
     padding-left: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    height: 100%;
 }
+

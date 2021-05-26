@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./fullpage.min.js">
+    <link rel="stylesheet" type="text/css" href="fullpage.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="img/svg" href="./assets/Favicon.svg">
     <title>Renaise</title>
 </head>
-<body>
-    <div>
+<body> 
         <div class="nav">
             <div class="logo">
-                <img src="./assets/renaiselogo 1.svg">
+                <a href="#home"><img src="./assets/renaiselogo 1.svg"></a>
             </div>
             
             <label class="switch">
@@ -22,14 +22,16 @@
             </label>
             
             <div class="nav-right">
-                <li>Work</li>
-                <li>Bites</li>
-                <li>About</li>
-                <li>Resume</li>
+                <ul>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#">Bites</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
             </div>
         </div>
-    <div id="fullpage"> 
-        <div class="section" data-anchor="home">
+    <div id="fullpage">
+        <div class="section" data-anchor="home" id="home">
             <div class="holder">
                 <div class="intro">
                     <h3>Hey there!</h3>
@@ -40,73 +42,72 @@
             </div>
             </div>
         </div>
-
-        <div class="section" data-anchor="work1">
-            <div class="holder">
-            <div class="intro">
-                <h3>Ahoy!</h3>
-                <p>A drop-in conversation platform with smart workflows to ensure folks connect live and asynchronously.</p>
-                <button></button>
+        
+        <div class="section" data-anchor="work1" id="work">
+            <div class="holder-a">
+                <div class="work1">
+                    <h3>Ahoy!</h3>
+                    <p>A drop-in conversation platform with smart workflows to ensure folks connect live and asynchronously.</p>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div>
+                    <img src="./assets/RoundCube.svg" class="work-img">
+                </div>
             </div>
-            <div>
-                <img src="./assets/RoundCube.svg" class="work-img">
-            </div>
-        </div>
         </div>
 
         <div class="section" data-anchor="work2">
-            <div class="holder">
-            <div class="intro">
-                <h3>Open ABA</h3>
-                <p>A free Applied Behavior Analysis and goal tracking toolkit dedicated for practitioners to use in virtual therapy sessions.</p>
-                <button></button>
+            <div class="holder-b">
+                <div class="work2">
+                    <h3>Open ABA</h3>
+                    <p>A free Applied Behavior Analysis and goal tracking toolkit dedicated for practitioners to use in virtual therapy sessions.</p>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div>
+                    <img src="./assets/Iridescent.svg" class="work-img">>
+                </div>
             </div>
-            <div>
-                <img src="./assets/Iridescent.svg" class="work-img">>
-            </div>
-        </div>
         </div>
 
         <div class="section" data-anchor="work3">
-            <div class="holder">
-            <div class="intro">
-                <h3>Airbnb Journals</h3>
-                <p>Collaborative storytelling and trip planning feature for Airbnb to organize post-COVID adventures.</p>
-                <button></button>
-            </div>
-            <div>
-                <img src="./assets/Cone.svg" class="work-img">
-            </div>
+            <div class="holder-c">
+                <div class="work3" id="airbnb">
+                    <h3>Airbnb Journals</h3>
+                    <p>Collaborative storytelling and trip planning feature for Airbnb to organize post-COVID adventures.</p>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div>
+                    <img src="./assets/Cone.svg" class="work-img">
+                </div>
             </div>
         </div>
 
         <div class="section" data-anchor="work4">
-            <div class="holder">
-            <div class="intro">
-                <h3>Instagram Circles</h3>
-                <p>Like Groups but for Instagram. A case study on uniting people with similar interests.</p>
-                <button></button>
-            </div>
-            <div>
-                <img src="assets/Sphere-Blue-Glossy.svg" class="work-img">
-            </div>
+            <div class="holder-d">
+                <div class="work4">
+                    <h3>Instagram Circles</h3>
+                    <p>Like Groups but for Instagram. A case study on uniting people with similar interests.</p>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div>
+                    <img src="assets/Sphere-Blue-Glossy.svg" class="work-img">
+                </div>
             </div>
         </div>
 
         <div class="section" data-anchor="work5">
-            <div class="holder">
-            <div class="intro">
-                <h3>Figma Interview Mode</h3>
-                <p>Facilitating virtual design challenges by Interviewers through a robust brainstorming platform.</p>
-                <button></button>
-            </div>
-            <div>
-                <img src="./assets/Recteangular prism.svg" class="work-img">>
-            </div>
+            <div class="holder-e">
+                <div class="work5">
+                    <h3>Figma Interview Mode</h3>
+                    <p>Facilitating virtual design challenges by Interviewers through a robust brainstorming platform.</p>
+                    <img src="./assets/arrow.svg">
+                </div>
+                <div>
+                    <img src="./assets/Recteangular prism.svg" class="work-img">>
+                </div>
             </div>
         </div>
-    </div>
-</div>  
+    </div>  
 
 <script src="./fullpage.min.js"></script>
 <script src="./easings.min.js"></script>

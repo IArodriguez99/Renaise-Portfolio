@@ -1,9 +1,12 @@
+
 @font-face {
     font-family: Decimal;
     src: url(./assets/fonts/Decimal-Book.otf) format('woff');
     src:  url(./assets/fonts/Decimal-Light.otf) format('woff');
+}
 
-            
+*{
+    box-sizing: border-box;
 }
 
 body{
@@ -12,6 +15,7 @@ body{
     background-size: 94%;
     background-position: center;
     background-repeat:repeat-y;
+    height: 100%;
 }
 
 h3{
@@ -126,7 +130,6 @@ input:checked + .slider:before {
     padding-right: 1rem;
 }
 
-
 .holder{
     display: flex;
     flex-direction: row;
@@ -137,6 +140,12 @@ input:checked + .slider:before {
 .intro{
     width: 50%;
     align-self: flex-end;
+}
+
+.computer{
+    padding-right: 2rem;
+    width: 100%;
+    height: auto;
 }
 
 .holder-a{
@@ -190,7 +199,7 @@ input:checked + .slider:before {
 .holder-e{
     display: flex;
     flex-direction: row;
-    padding-top: 16rem;
+    padding-top: 17rem;
     padding-left: 8.4rem;
 }
 
@@ -200,7 +209,47 @@ input:checked + .slider:before {
 }
 
 .work-img{
+    padding-right: 7rem;
     padding-left: 7rem;
     margin-bottom: 8rem;
+    width: 100%;
+    height: auto;
+}
+
+.about{
+    padding-top: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    width: %;
+    align-self: flex-end;
+}
+
+.typeface{
+    width: 85%;
+}
+
+.ellipse{
+   height: auto;
+   width: auto;
+}
+
+.coming{
+    padding-top: 8rem;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.question{
+    padding-top: 6rem;
+}
+
+.ellipse2{
+    
 }
 

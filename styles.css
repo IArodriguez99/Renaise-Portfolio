@@ -7,6 +7,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -233,7 +234,7 @@ input:checked + .slider:before {
 }
 
 .ellipse{
-   height: auto;
+   height: 100%;
    width: auto;
 }
 
@@ -249,7 +250,47 @@ input:checked + .slider:before {
     padding-top: 6rem;
 }
 
-.ellipse2{
-    
+.question h3{
+    padding-right: 23rem;
 }
 
+.resume p{
+    font-size: 1.2rem;
+    color: #bebebe;
+}
+
+.resume h3{
+    font-size: 1.6rem;
+    color: #bebebe;
+}
+
+.resume-pdf{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    padding-left: 10.5rem;
+}
+
+.resume-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10rem;
+    padding-left: 10.5rem;
+}
+
+.resume-col{
+    width: 40%;
+}
+
+.resume-col_2{
+    width: 55%;
+    padding-top: 0.5rem;
+}
+
+.company{
+    color: #ffffff;
+}
+
+.resume-col h3{
+    color: #ffffff;
+}

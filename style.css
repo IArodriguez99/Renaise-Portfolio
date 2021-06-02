@@ -26,7 +26,7 @@ h4{
 
 h5{
     color: #bebebe;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-family: Decimal;
 }
 
@@ -144,7 +144,7 @@ input:checked + .slider:before {
     flex-direction: row;
     align-items: flex-end;
     padding-left: 4.5rem;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .company-col_1{
@@ -304,4 +304,100 @@ input:checked + .slider:before {
     flex-direction: row;
     justify-content: center;
     padding-top: 3rem;
+}
+
+.aba-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-left: 4.5rem;
+}
+
+.aba-col_1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    width: 50%;
+}
+
+.aba-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.open-text{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    justify-content: center;
+    padding-top: 3rem;
+    width: 90%;
+}
+
+.aba-hero{
+    padding-top: 5rem;
+}
+
+.problem-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7rem;
+    padding-left: 4.5rem;
+}
+
+.problem-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.problem-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.problem-explain{
+    padding-top: 10rem;
+    padding-left: 14rem;
+    padding-bottom: 6rem;
+    width: 86%;
+}
+
+.target-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20rem;
+    padding-left: 4.5rem;
+}
+
+.target-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.target-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    padding-top: 1rem;
+}
+
+.token{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+
+.token-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.target-img_1{
+   height: auto;
+   width: 60%;
+   padding-bottom: 7rem;
 }

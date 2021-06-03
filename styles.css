@@ -39,6 +39,9 @@ a{
     color: #ffffff;
 }
 
+a:hover{
+    cursor: pointer;
+}
 .nav{
     position: fixed;
     display: flex;

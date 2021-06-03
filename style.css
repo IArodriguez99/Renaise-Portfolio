@@ -136,7 +136,8 @@ input:checked + .slider:before {
 }
 
 .hero{
-  background-size: cover;
+    height: auto;
+    width: 100%;
 }
 
 .company-row{
@@ -401,3 +402,4 @@ input:checked + .slider:before {
    width: 60%;
    padding-bottom: 7rem;
 }
+

@@ -20,7 +20,7 @@ h3{
 
 h4{
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-family: Decimal;
 }
 
@@ -41,6 +41,12 @@ p{
 a{
     text-decoration: none;
     color: #ffffff;
+}
+
+li{
+    color: #bebebe;
+    font-size: 1.3rem;
+    font-family: Decimal;
 }
 
 .nav{
@@ -272,8 +278,8 @@ input:checked + .slider:before {
 }
 
 .btn-2{
-    width: 35%;
-    padding: 16px 20px;
+    width: fit-content;
+    padding: 16px 32px;
     border-radius: 100px;
     font-family: Decimal;
     font-size: 1.1rem;
@@ -403,3 +409,176 @@ input:checked + .slider:before {
    padding-bottom: 7rem;
 }
 
+.plan{
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.plan-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+}
+
+.plan-col{
+    display: flex;
+    flex-direction: column;
+    padding-right: 13rem;
+}
+
+.prototype{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7rem;
+    margin: auto;
+    width: 90%;
+}
+
+.brief-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.brief-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.brief-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.eval-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.eval-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.eval-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.engage-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.engage-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.engage-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.journey-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.journey-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%
+}
+
+.journey-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.journeymap{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+.design-header{
+    padding-left: 4.5rem;
+    padding-top: 7rem;
+}
+
+.present{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4.5em;
+    padding-top: 10rem;
+    gap: 7rem;
+}
+
+.present-col{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.present-col_2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.present-footer{
+    padding-top: 7rem;
+    margin: auto;
+    width: 90%;
+}
+
+.phones{
+    display: flex;
+    padding-top: 7rem;
+    justify-content: space-evenly;
+}
+
+.itinerary{
+    padding-left: 4.5rem;
+    padding-top: 20rem;
+    width: 45%;
+}
+
+.journal-scroll{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.closing{
+    width: 85%;
+    margin: auto;
+}
+
+.project-cards{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-col{
+    display: flex;
+    flex-direction: column;
+}

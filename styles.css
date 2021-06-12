@@ -44,6 +44,7 @@ a{
 a:hover{
     cursor: pointer;
 }
+
 .nav{
     position: fixed;
     display: flex;
@@ -146,7 +147,7 @@ input:checked + .slider:before {
 }
 
 .intro{
-    width: 50%;
+    width: 45%;
     align-self: flex-end;
 }
 
@@ -231,6 +232,13 @@ input:checked + .slider:before {
     flex-direction: row;
 }
 
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-bottom: 8rem;
+}
+
 .info{
     width: %;
     align-self: flex-end;
@@ -258,7 +266,15 @@ input:checked + .slider:before {
 }
 
 .question h3{
-    padding-right: 23rem;
+    padding-right: 15rem;
+}
+
+.question span{
+    border-bottom: 2px solid#ffffff;
+}
+
+.resume{
+    padding-top: 15rem;
 }
 
 .resume p{
@@ -274,14 +290,19 @@ input:checked + .slider:before {
 .resume-pdf{
     display: flex;
     flex-direction: row;
-    padding-top: 10rem;
+    padding-bottom: 10rem;
     padding-left: 10.5rem;
+}
+
+.resume-pdf span{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid#ffffff;
 }
 
 .resume-row{
     display: flex;
     flex-direction: row;
-    padding-top: 10rem;
+    padding-bottom: 10rem;
     padding-left: 10.5rem;
 }
 
@@ -291,7 +312,6 @@ input:checked + .slider:before {
 
 .resume-col_2{
     width: 55%;
-    padding-top: 0.5rem;
 }
 
 .company{

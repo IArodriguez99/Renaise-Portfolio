@@ -1,4 +1,3 @@
-
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 const currentTheme = localStorage.getItem('theme');
 
@@ -14,16 +13,23 @@ function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-    }
-    else {        document.documentElement.setAttribute('data-theme', 'light');
-          localStorage.setItem('theme', 'light');
-    }    
-}
+
+    }else{
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+    };    
+};
 
 toggleSwitch.addEventListener('change', switchTheme, false);
 
 
-
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        return document.querySelector(".nav").classList.add('hide')
+    }
+    return document.querySelector(".nav").classList.remove('hide')
+  
+  });
 
 new fullpage('#fullpage', {
     autoScrolling: true,

@@ -61,17 +61,24 @@ a{
 
 a:hover{
     cursor: pointer;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+a:target{
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .nav{
     position: fixed;
+    top: 1.1rem;
     display: flex;
-    flex-direction:flex;
     align-items: center;
-    top: 0;
-    padding-top: 1.1rem;
-    transition: top 0.3;
+    transition: top 0.4s ease;
     z-index: 5;
+}
+
+.nav.hide{
+    top: -200px;
 }
 
 .logo{
@@ -138,8 +145,8 @@ a:hover{
   }
 
 .nav-right{
-   position: fixed;
-   right: 4.7rem
+    position: fixed;
+    right: 4.7rem
 }
 
 .nav-right ul{
@@ -301,7 +308,7 @@ a:hover{
 
 .resume h3{
     font-size: 1.6rem;
-    color: #bebebe;
+    color: var(--secondary-color);
 }
 
 .resume-pdf{

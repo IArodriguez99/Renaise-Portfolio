@@ -59,18 +59,19 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+.nav-right a:hover{
     cursor: pointer;
-    border-bottom: 3px solid var(--primary-color);
 }
 
-a:target{
+.nav-right .current{
+    padding-bottom: 0.5rem;
     border-bottom: 3px solid var(--primary-color);
+    font-weight: bolder;
 }
 
 .nav{
     position: fixed;
-    top: 1.1rem;
+    top: 2rem;
     display: flex;
     align-items: center;
     transition: top 0.4s ease;
